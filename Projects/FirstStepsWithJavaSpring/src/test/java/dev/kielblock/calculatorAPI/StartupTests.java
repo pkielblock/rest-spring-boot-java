@@ -1,4 +1,4 @@
-package dev.kielblock.firststepswithjavaspring;
+package dev.kielblock.calculatorAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

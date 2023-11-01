@@ -1,4 +1,4 @@
-package dev.kielblock.firststepswithjavaspring;
+package dev.kielblock.calculatorAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

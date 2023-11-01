@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bece9697-156d-48d8-8fca-629b9ed7ef72" name="Changes" comment="" />
+    <list default="true" id="bece9697-156d-48d8-8fca-629b9ed7ef72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Projects/FirstStepsWithJavaSpring/src/main/java/dev/kielblock/firststepswithjavaspring/GreetingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/FirstStepsWithJavaSpring/src/main/java/dev/kielblock/firststepswithjavaspring/GreetingsController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +15,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2XYEBHvXFG0PcFJbubWb4LFQQ5e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl$/Arch/home/pkielblock/development/rest-spring-boot-java/Projects/FirstStepsWithJavaSpring",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698797476628</updated>
       <workItem from="1698797477628" duration="245000" />
+      <workItem from="1698820584369" duration="12000" />
     </task>
     <servers />
   </component>
