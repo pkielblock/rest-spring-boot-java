@@ -31,6 +31,16 @@ public class MathController {
         return convertToDouble(numberOne) - convertToDouble(numberTwo);
     }
 
+    @GetMapping("/multiplication/{numberOne}/{numberTwo}")
+    public Double multiplication(@PathVariable(value = "numberOne") String numberOne,
+                                 @PathVariable(value = "numberTwo") String numberTwo) {
+        if(!isNumeric(numberOne) || !isNumeric(numberTwo)) {
+            throw new UnsupportedMathOperationException("Please set a numeric value");
+        }
+
+        return convertToDouble(numberOne) * convertToDouble(numberTwo);
+    }
+
     @GetMapping("/division/{numberOne}/{numberTwo}")
     public Double division(@PathVariable(value = "numberOne") String numberOne,
                            @PathVariable(value = "numberTwo") String numberTwo) {
