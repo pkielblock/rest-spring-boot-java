@@ -3,12 +3,10 @@ package dev.kielblock.calculatorAPI;
 import dev.kielblock.calculatorAPI.exceptions.UnsupportedMathOperationException;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 @RequestMapping("/calculator")
 public class MathController {
-    private final AtomicLong counter = new AtomicLong();
 
     @GetMapping("/sum/{numberOne}/{numberTwo}")
     public Double sum(@PathVariable(value = "numberOne") String numberOne,
@@ -84,7 +82,7 @@ public class MathController {
         return 0D;
     }
 
-    private Integer convertToInteger(String strNumber) {
+    /*private Integer convertToInteger(String strNumber) {
         if(strNumber == null) {
             return 1;
         }
@@ -96,7 +94,7 @@ public class MathController {
         }
 
         return 0;
-    }
+    }*/
 
     private boolean isNumeric(String strNumber) {
         if(strNumber == null) {
